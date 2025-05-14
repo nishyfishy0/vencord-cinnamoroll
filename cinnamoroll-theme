@@ -1,0 +1,40 @@
+/**
+ * @name Cinnamoroll
+ * @author nishyfishy0
+ * @version 0.0.1
+ * @description Cute Cinnamoroll theme!
+*/
+
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+:root {
+  --background: url('https://kawaiihoshi.com/wp-content/uploads/2022/09/xas2ko-cinamoroll-wallpaper.jpg');
+  --backgroundsize: cover;
+  --backgroundposition: center;
+  --backgroundblur: 5px;
+  --popout: var(--background);
+  --popoutsize: var(--backgroundsize);
+  --popoutblur: 5px;
+  --transparencycolor: 237,246,255;
+  --accentcolor: 179,217,255;
+  --backdrop: rgba(0,0,0,0.85);
+  --textshadow: transparent;
+  --transparencyalpha: 0.5;
+  --messagetransparency: 0.25;
+  --guildchanneltransparency: 0.4;
+  --chatinputtransparency: 0.5;
+  --memberlisttransparency: 0.5;
+  --font: DynaPuff;
+  font-size: 9px;
+  --textbrightest: 0,100,200;
+  --textbrighter: 137,196,255;
+  --textbright: 100, 160, 255;
+  --textdark: 0,50,100;
+  --textdarker: 0,15,75;
+  --textdarkest: 0,25,50;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+}
